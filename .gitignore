@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+master
+slave
+
+# VS Code
+.vscode
+
+# test
+*test*

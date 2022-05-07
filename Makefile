@@ -1,5 +1,9 @@
+all: master slave
+clean:
+	rm master slave
+
 master: master.c
-	gcc -O master master.c -I
+	gcc -o master master.c -I.
 
 slave: slave.c
-	gcc -O slave slave.c -I
+	gcc -o slave slave.c -I.
